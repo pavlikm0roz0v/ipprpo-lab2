@@ -3,7 +3,7 @@ public class EvenNumber {
         int number = 7;
 
         //баг (проверяем на нечётность вместо чётности)
-        if (number % 2 == 1) {
+        if (number % 2 == 0) {
             System.out.println(number + " — чётное");
         } else {
             System.out.println(number + " — нечётное");
