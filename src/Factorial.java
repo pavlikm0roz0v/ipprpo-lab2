@@ -21,4 +21,15 @@ public class Factorial {
         }
         return result;
     }
+
+    //реализация через while (демонстрация rebase)
+    public static long factorialWhile(int n) {
+        long result = 1;
+        int i = 2;
+        while (i <= n) {
+            result *= i;
+            i++;
+        }
+        return result;
+    }
 }
