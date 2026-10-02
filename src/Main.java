@@ -1,11 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 5;
-
-        System.out.println("Сложение: " + (a + b));
-        System.out.println("Вычитание: " + (a - b));
-        System.out.println("Умножение: " + (a * b));
-        System.out.println("Деление: " + (a / b));
+        System.out.println("Задача A: приветствие");
+        System.out.println("Hello from task A!");
     }
 }
