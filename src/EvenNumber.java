@@ -1,12 +1,13 @@
 public class EvenNumber {
     public static void main(String[] args) {
-        int number = 7;
+        int[] numbers = {7, 10, 15, 22};
 
-        //баг (проверяем на нечётность вместо чётности)
-        if (number % 2 == 0) {
-            System.out.println(number + " — чётное");
-        } else {
-            System.out.println(number + " — нечётное");
+        for (int number : numbers) {
+            if (number % 2 == 0) {
+                System.out.println(number + " — чётное");
+            } else {
+                System.out.println(number + " — нечётное");
+            }
         }
     }
 }
